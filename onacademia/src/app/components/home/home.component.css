@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     font-family: "Roboto", sans-serif;
     padding: 0 70px;
 
@@ -115,7 +115,7 @@
         }
 @media (min-width: 1080px){
     .main-section{
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 }
