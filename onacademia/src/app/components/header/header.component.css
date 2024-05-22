@@ -33,7 +33,7 @@
             margin: 0 20px;
             position: relative;
         }
-
+        /* Efeito de hover */
         nav a::after{
             content: " ";
             width: 0px;
@@ -49,6 +49,7 @@
             width: 100%;
             transition: width 0.5s;
         }
+        /* Fim efeito de hover */
     }
     .sociais{
         display: flex;
